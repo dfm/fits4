@@ -1,0 +1,19 @@
+[package]
+name = "fits4"
+version = "0.1.0"
+authors = ["Dan Foreman-Mackey <dfm@dfm.io>"]
+description = "An implementation of the FITS format in Rust"
+license = "Apache-2.0"
+repository = "https://github.com/dfm/fits4"
+readme = "README.md"
+# documentation = "https://docs.rs/fits4"
+# keywords = []
+# categories = []
+edition = "2021"
+
+[dependencies]
+nom = "7"
+lexical-core = "0.8.5"
+
+[dev-dependencies]
+rstest = "0.18.1"
